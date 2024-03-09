@@ -1,0 +1,106 @@
+header {
+  width: 100%;
+  padding: 18px;
+  position: sticky;
+  top: 0;  
+  backdrop-filter: blur(10px);
+  z-index: 89465498;
+
+
+  // example
+
+  .nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    &__logo {
+      font-style: 24px;
+      cursor: pointer;
+    }
+
+    label {
+      display: flex;
+      width: 427px;
+      justify-content: space-between;
+      padding: 5px;
+      background-color: $gray-background;
+      padding: 10px;
+      border-radius: 10px;
+
+      input {
+        width: 340px;
+        outline: none;
+        border: none;
+        background: transparent;
+      }
+    }
+    button {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background: $base-green;
+      border: none;
+      gap: 5px;
+      color: $white-color;
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover{
+        background: $base-greenHover;
+      }
+      &:active{
+        background:$base-green;
+      }
+    }
+    div {
+      a {
+        color: $base-color;
+        font-weight: 700;
+        font-size: 20px;
+      }
+      p {
+        color: $lightgray-color;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.after-header {
+    margin-top: 15px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: $base-color;
+
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .btn-border {
+      border: 1px solid $gray-border;
+      padding: 10px 20px;
+      border-radius: 10px;
+
+      &:hover {
+        background: $bg-hover;
+        color: $white-color;
+      }
+
+      &:active {
+        background: $white-color;
+        color: $base-color;
+      }
+    }
+  }
+}

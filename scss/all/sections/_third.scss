@@ -1,0 +1,32 @@
+#third {
+  margin-top: 360px;
+
+  .container {
+
+
+    .third-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 5px;
+      .third-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 550px;
+        height: 180px;
+        padding: 30px;
+        border: 1px solid $gray-border;
+        border-radius: 20px;
+        img{
+            background: $bg-graycolor;
+            padding: 35px;
+            border-radius: 100%;
+        }
+        p {
+          width: 350px;
+        }
+      }
+    }
+  }
+}

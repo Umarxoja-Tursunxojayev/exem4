@@ -1,0 +1,1006 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Open Sans;
+  background: #FfF;
+}
+body button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
+}
+
+header {
+  width: 100%;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 89465498;
+}
+header .nav {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+header .nav__logo {
+  font-style: 24px;
+  cursor: pointer;
+}
+header .nav label {
+  display: flex;
+  width: 427px;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgba(47, 43, 67, 0.04);
+  padding: 10px;
+  border-radius: 10px;
+}
+header .nav label input {
+  width: 340px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+header .nav button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #33836e;
+  border: none;
+  gap: 5px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+header .nav button:hover {
+  background: #81d2bc;
+}
+header .nav button:active {
+  background: #33836e;
+}
+header .nav div a {
+  color: #140a32;
+  font-weight: 700;
+  font-size: 20px;
+}
+header .nav div p {
+  color: rgba(47, 43, 67, 0.4);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.after-header {
+  margin-top: 15px;
+}
+.after-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.after-header .container a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #140a32;
+}
+.after-header .container ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.after-header .container .btn-border {
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.after-header .container .btn-border:hover {
+  background: #1a77a3;
+  color: #fff;
+}
+.after-header .container .btn-border:active {
+  background: #fff;
+  color: #140a32;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+#first {
+  margin-bottom: 96px;
+}
+#first .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#first .container .pre-first a {
+  color: rgba(47, 43, 67, 0.4);
+}
+#first .container .first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#first .container .first p {
+  line-height: 1.5;
+}
+#first .container .first div {
+  max-width: 657px;
+}
+#first .container .first-btn {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+#first .container .first-btn a {
+  color: #33836e;
+  font-size: 24px;
+  border-bottom: 1px solid #33836e;
+  font-weight: 700;
+}
+#first .container .first-btn button {
+  padding: 16px 36px;
+  background: #33836e;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+#first .container .first-btn button:hover {
+  background: #81d2bc;
+}
+#first .container .first-btn button:active {
+  background: #33836e;
+}
+#first .container .first-btn p {
+  margin-top: 5px;
+  color: rgba(47, 43, 67, 0.4);
+  font-size: 12px;
+}
+#first .container .first ul {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+#first .container .first ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#second {
+  margin-bottom: 96px;
+}
+#second .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#second .container div h1 {
+  margin-top: 80px;
+}
+#second .container p {
+  line-height: 1.5;
+}
+#second .container .reg-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#second .container .reg-cards .reg-card {
+  width: 270px;
+  height: 180px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+}
+#second .container .reg-cards .reg-card a {
+  color: #33836e;
+}
+#second .container .reg-cards .reg-card #tel {
+  color: #140a32;
+}
+
+#third {
+  margin-top: 360px;
+}
+#third .container .third-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+#third .container .third-cards .third-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 180px;
+  padding: 30px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 20px;
+}
+#third .container .third-cards .third-card img {
+  background: rgb(236, 243, 241);
+  padding: 35px;
+  border-radius: 100%;
+}
+#third .container .third-cards .third-card p {
+  width: 350px;
+}
+
+#fourth {
+  margin-top: 109px;
+}
+#fourth .container {
+  width: 1100px;
+  color: #140a32;
+}
+#fourth .container .fourth-flex {
+  display: flex;
+  align-items: center;
+}
+#fourth .container .fourth-flex .fourth-text {
+  width: 560px;
+}
+#fourth .container .fourth-flex .fourth-text ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#fourth .container .fourth-flex .fourth-text ul li span {
+  color: #33836e;
+  font-size: 28px;
+  font-weight: 700;
+}
+#fourth .container .fourth-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background: #33836e;
+  border-radius: 20px;
+  color: #fff;
+  padding: 50px 60px;
+}
+#fourth .container .fourth-contact a {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+}
+#fourth .container .fourth-contact h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#fourth .container .fourth-contact .fourth-contact_p {
+  font-size: 12px;
+  color: rgba(47, 43, 67, 0.4);
+}
+#fourth .container .fourth-contact h4 {
+  font-size: 18px;
+}
+#fourth .container .fourth-contact .contact-confirm {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+#fourth .container .fourth-contact .contact-confirm label {
+  padding: 7px 16px;
+  background: #fff;
+  border-radius: 10px;
+}
+#fourth .container .fourth-contact .contact-confirm label p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.4);
+}
+#fourth .container .fourth-contact .contact-confirm label input {
+  outline: none;
+  border: none;
+}
+#fourth .container .fourth-contact .contact-confirm button {
+  padding: 7px 16px;
+  border: 1px solid #fff;
+  background-color: #33836e;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#fourth .container .fourth-contact .contact-confirm button:hover {
+  background: #fff;
+  color: #81d2bc;
+}
+#fourth .container .fourth-contact .contact-confirm button:active {
+  background: #33836e;
+  color: white;
+}
+
+#fifth .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#fifth .container h1 {
+  margin-top: 80px;
+}
+#fifth .container .fifth-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+#fifth .container .fifth-cards .fifth-card {
+  padding: 20px;
+  width: 540px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 20px;
+}
+#fifth .container .fifth-cards .fifth-card h3 {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#fifth .container .fifth-cards .fifth-card h3 span {
+  border-bottom: 1px solid #33836e;
+}
+#fifth .container .fifth-cards .fifth-card p {
+  line-height: 150%;
+}
+
+#sixth {
+  margin-top: 20px;
+}
+#sixth .container {
+  width: 1100px;
+  color: #140a32;
+  display: flex;
+  background: #33836e;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../../../assets/images/Ellipse\ 14.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+#sixth .container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#sixth .container div span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+#sixth .container div a {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -1.26px;
+}
+#sixth .container div p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#seventh {
+  margin-top: 20px;
+}
+#seventh .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#seventh .container .seventh-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+#seventh .container .seventh-cards .seventh-card {
+  padding: 20px;
+  width: 540px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 20px;
+}
+#seventh .container .seventh-cards .seventh-card h3 {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#seventh .container .seventh-cards .seventh-card h3 span {
+  border-bottom: 1px solid #33836e;
+}
+#seventh .container .seventh-cards .seventh-card p {
+  line-height: 150%;
+}
+
+#eighth {
+  position: relative;
+  bottom: 90px;
+  z-index: 9874623497;
+  margin-top: 20px;
+  right: 4px;
+}
+#eighth .container {
+  padding-left: 20px;
+  color: #140a32;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1095px;
+  height: 200px;
+  border-radius: 20px;
+  background: rgba(47, 43, 67, 0.04);
+}
+#eighth .container .fourth-contact_p {
+  font-size: 12px;
+  color: rgba(47, 43, 67, 0.4);
+}
+#eighth .container .contact-confirm {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+#eighth .container .contact-confirm label {
+  padding: 7px 16px;
+  background: #fff;
+  border-radius: 10px;
+}
+#eighth .container .contact-confirm label p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.4);
+}
+#eighth .container .contact-confirm label input {
+  outline: none;
+  border: none;
+}
+#eighth .container .contact-confirm button {
+  padding: 7px 16px;
+  border: 1px solid #fff;
+  background: #33836e;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#eighth .container .contact-confirm button:hover {
+  background: #81d2bc;
+  color: #fff;
+}
+#eighth .container .contact-confirm button:active {
+  background: #33836e;
+  color: white;
+}
+
+#ninth .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#ninth .container p {
+  font-weight: 400;
+  line-height: 160%;
+}
+#ninth .container button {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  border: none;
+  color: #33836e;
+  background: #E0ECE9;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+#ten button {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  border: none;
+}
+#ten .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#ten .container .mySlides {
+  display: none;
+  position: relative;
+  border-radius: 20px;
+}
+#ten .container .carousel button {
+  cursor: pointer;
+}
+#ten .container .carousel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+#ten .container .mySlides {
+  transition: height 0.5s ease-in-out;
+  padding: 30px;
+  width: 320px;
+  height: 421px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+}
+#ten .container .mySlides .slide-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+#ten .container .mySlides .slide-img img {
+  background: #1a77a3;
+  padding: 13px;
+  border-radius: 999px;
+}
+#ten .container .mySlides .slide-img ul li p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.5);
+}
+#ten .container .slide-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 102px;
+}
+#ten .container .slide-flex span {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.5);
+}
+#ten .container .slide-flex a {
+  color: #33836e;
+}
+
+.slide-absolute {
+  position: absolute;
+  right: 20px;
+}
+
+#eleven .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#eleven .container .eleven-flex {
+  display: flex;
+  gap: 20px;
+}
+#eleven .container .eleven-card {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 20px;
+}
+#eleven .container .eleven-card img {
+  width: 70px;
+  height: 70px;
+}
+#eleven .container .eleven-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#eleven .container .eleven-card ul li span {
+  color: rgba(47, 43, 67, 0.15);
+}
+#eleven .container .eleven-input {
+  background: #33836e;
+  padding: 40px;
+  color: #fff;
+}
+#eleven .container .eleven-input textarea {
+  width: 100%;
+  height: 213px;
+  margin-top: 30px;
+}
+#eleven .container .eleven-input .ul-flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+#eleven .container .eleven-input .ul-flex label {
+  background: #fff;
+  padding: 7px 16px;
+}
+#eleven .container .eleven-input .ul-flex label input {
+  border: none;
+  outline: none;
+}
+#eleven .container .eleven-input .ul-flex button {
+  background: #140a32;
+  color: #fff;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 10px;
+}
+#eleven .container .eleven-input .ul-flex p {
+  color: rgba(47, 43, 67, 0.4);
+}
+#eleven .container .eleven-input span {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 12px;
+  width: 501px;
+}
+#eleven .container .eleven-input .number-ul {
+  display: flex;
+  margin-top: 30px;
+}
+#eleven .container .eleven-input .number-ul ul {
+  margin-left: 20px;
+}
+#eleven .container .eleven-input .number-ul span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.eleven-button {
+  padding: 17px 36px;
+  width: 100%;
+  color: #33836e;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#end {
+  margin-top: 80px;
+}
+#end .container {
+  padding-left: 20px;
+  color: #140a32;
+}
+#end .container div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#end .container div ul {
+  width: 270px;
+  margin-bottom: 50px;
+}
+#end .container div ul li a {
+  color: #140a32;
+}/*# sourceMappingURL=style.css.map */
